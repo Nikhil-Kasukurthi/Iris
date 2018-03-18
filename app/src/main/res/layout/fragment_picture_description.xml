@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#eceff1"
+
+    >
+<FrameLayout android:id="@+id/activity_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="30"
+        android:weightSum="100"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scan the name tag of the exhibit"
+        android:id="@+id/holder_text"
+        android:textColor="@color/colorPrimaryDark"
+        android:gravity="center_horizontal"
+        android:layout_weight="50"
+        android:paddingHorizontal="16dp"
+        android:textSize="22sp"
+        android:layout_marginTop="40dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/description"
+        android:layout_weight="50"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginHorizontal="25dp"
+        android:text="Want to dive deeper and know more about any exhibit? Scan the name tag and get the related Wikipedia articles."
+        android:textSize="14sp"
+        android:textColor="@android:color/black"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="40">
+    <ImageView
+        android:id="@+id/eye_start"
+        android:layout_width="256dp"
+        android:layout_height="256dp"
+        android:src="@drawable/eye"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_vertical|center_horizontal"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="30">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dream_start_btn"
+        android:text="DIVE IN"
+        android:paddingHorizontal="20dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="50dp"
+        />
+    </LinearLayout>
+</LinearLayout>
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/spin_kit"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        app:indicatorName="BallScaleRippleMultipleIndicator"
+        app:indicatorColor="@android:color/black"
+        />
+
+
+    <android.support.v7.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/posts_recycler_view">
+
+</android.support.v7.widget.RecyclerView>
+
+</FrameLayout>
+</LinearLayout>

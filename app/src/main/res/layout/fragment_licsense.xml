@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:paddingHorizontal="20dp"
+            android:id="@+id/description1"
+            android:text="@string/lisense1"
+            android:textColor="@android:color/black"
+            android:padding="16dp"
+            android:textSize="14sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingHorizontal="20dp"
+            android:id="@+id/description2"
+            android:text="@string/lisense2"
+            android:textColor="@android:color/black"
+            android:padding="16dp"
+            android:textSize="14sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingHorizontal="20dp"
+            android:id="@+id/description3"
+            android:text="@string/lisense3"
+            android:textColor="@android:color/black"
+            android:padding="16dp"
+            android:textSize="14sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingHorizontal="20dp"
+            android:id="@+id/description4"
+            android:text="@string/lisense4"
+            android:textColor="@android:color/black"
+            android:padding="16dp"
+            android:textSize="14sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingHorizontal="20dp"
+            android:id="@+id/description5"
+            android:text="@string/lisense5"
+            android:textColor="@android:color/black"
+            android:padding="16dp"
+            android:textSize="14sp" />
+</LinearLayout>
+</ScrollView>

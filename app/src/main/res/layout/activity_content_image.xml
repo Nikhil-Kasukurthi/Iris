@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    >
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/white"
+        android:id="@+id/toolbar">
+
+    </android.support.v7.widget.Toolbar>
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload your content image "
+        android:id="@+id/holder_text"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="22sp"
+        android:layout_marginTop="60dp"/>
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/upload_image"
+        android:layout_width="256dp"
+        android:layout_height="256dp"
+        android:layout_marginStart="5dp"
+        android:layout_gravity="center_vertical|center_horizontal"/>
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/spin_kit"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        app:indicatorName="BallScaleRippleMultipleIndicator"
+        app:indicatorColor="@android:color/black"
+        />
+
+</FrameLayout>
+</LinearLayout>
