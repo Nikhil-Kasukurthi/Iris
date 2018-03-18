@@ -1,4 +1,4 @@
-package com.geothe.iris;
+package com.geothe.iris.ui.activities;
 
 import android.content.Context;
 import android.content.Intent;
@@ -8,6 +8,8 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 import android.widget.TextView;
+
+import com.geothe.iris.R;
 
 /**
  * Created by ramkishorevs on 26/02/18.

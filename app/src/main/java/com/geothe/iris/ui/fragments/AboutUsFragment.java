@@ -1,4 +1,4 @@
-package com.geothe.iris;
+package com.geothe.iris.ui.fragments;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -7,6 +7,8 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.geothe.iris.R;
 
 /**
  * Created by ramkishorevs on 18/03/18.

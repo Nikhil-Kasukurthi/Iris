@@ -1,6 +1,5 @@
-package com.geothe.iris;
+package com.geothe.iris.ui.activities;
 
-import android.content.Intent;
 import android.graphics.Typeface;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
@@ -10,7 +9,11 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.google.api.services.vision.v1.model.Color;
+import com.geothe.iris.R;
+import com.geothe.iris.ui.fragments.DashBoardFragment;
+import com.geothe.iris.ui.fragments.LicsenseFragment;
+import com.geothe.iris.ui.fragments.PictureDescriptionFragment;
+import com.geothe.iris.ui.fragments.StyleTransferFragment;
 import com.yarolegovich.slidingrootnav.SlidingRootNav;
 import com.yarolegovich.slidingrootnav.SlidingRootNavBuilder;
 

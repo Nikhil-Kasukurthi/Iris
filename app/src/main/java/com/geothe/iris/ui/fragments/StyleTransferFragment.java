@@ -1,4 +1,4 @@
-package com.geothe.iris;
+package com.geothe.iris.ui.fragments;
 
 import android.content.Intent;
 import android.graphics.Typeface;
@@ -11,14 +11,14 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
-import android.widget.Button;
 import android.widget.TextView;
 
 import com.facebook.drawee.backends.pipeline.Fresco;
 import com.facebook.drawee.view.SimpleDraweeView;
+import com.geothe.iris.ui.activities.ContentImageActivity;
+import com.geothe.iris.R;
 import com.geothe.iris.models.StyleDataset;
 import com.geothe.iris.network.ConnectAPI;
-import com.melnykov.fab.FloatingActionButton;
 
 import link.fls.swipestack.SwipeStack;
 

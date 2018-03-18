@@ -1,4 +1,4 @@
-package com.geothe.iris;
+package com.geothe.iris.ui.activities;
 
 import android.Manifest;
 import android.content.pm.PackageManager;
@@ -10,12 +10,11 @@ import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
-import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.facebook.drawee.backends.pipeline.Fresco;
 import com.facebook.drawee.view.SimpleDraweeView;
+import com.geothe.iris.R;
 import com.wang.avi.AVLoadingIndicatorView;
 
 import net.gotev.uploadservice.MultipartUploadRequest;

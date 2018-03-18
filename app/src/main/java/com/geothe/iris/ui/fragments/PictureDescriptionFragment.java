@@ -1,4 +1,4 @@
-package com.geothe.iris;
+package com.geothe.iris.ui.fragments;
 
 import android.Manifest;
 import android.content.Intent;
@@ -31,6 +31,9 @@ import android.widget.Toast;
 
 import com.facebook.drawee.backends.pipeline.Fresco;
 import com.facebook.drawee.view.SimpleDraweeView;
+import com.geothe.iris.ui.activities.ArticleDetailActivity;
+import com.geothe.iris.ImageUtils;
+import com.geothe.iris.R;
 import com.geothe.iris.models.ArticleList;
 import com.geothe.iris.network.ConnectAPI;
 import com.google.api.client.extensions.android.json.AndroidJsonFactory;

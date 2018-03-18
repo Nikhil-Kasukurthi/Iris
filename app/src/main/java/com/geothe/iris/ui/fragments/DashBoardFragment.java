@@ -1,4 +1,4 @@
-package com.geothe.iris;
+package com.geothe.iris.ui.fragments;
 
 import android.graphics.Typeface;
 import android.media.MediaPlayer;
@@ -14,6 +14,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.VideoView;
+
+import com.geothe.iris.R;
 
 /**
  * Created by ramkishorevs on 26/02/18.
